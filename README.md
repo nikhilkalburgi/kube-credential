@@ -2,9 +2,9 @@
 
 A microservices-based credential issuance and verification system built with Node.js, TypeScript, React, and Kubernetes.
 
-Name: Nikhil S Kalburgi
-Email: <nikhilkalburgi19@gmail.com>
-Contact: +91 9110651716
+- Name: Nikhil S Kalburgi
+- Email: <nikhilkalburgi19@gmail.com>
+- Contact: +91 9110651716
 
 Screenshot: Screenshot_kube.png, Screenshot_kube2.png, Screenshot_kube3.png
 
