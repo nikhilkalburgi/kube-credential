@@ -6,9 +6,11 @@
     "install-all": "concurrently \"cd services/credential-service && npm install\" \"cd frontend && npm install\"",
     "start-services": "cd services/credential-service && npm start",
     "start-frontend": "cd frontend && npm start",
-    "test": "cd services/credential-service && npm test"
+    "test": "cd services/credential-service && npm test",
+    "deploy": "gh-pages -d ./frontend/dist"
   },
   "devDependencies": {
-    "concurrently": "^8.0.1"
+    "concurrently": "^8.0.1",
+    "gh-pages": "^6.3.0"
   }
 }
