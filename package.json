@@ -1,0 +1,14 @@
+{
+  "name": "kube-credential",
+  "version": "1.0.0",
+  "description": "Credential issuance and verification system with microservices architecture",
+  "scripts": {
+    "install-all": "concurrently \"cd services/credential-service && npm install\" \"cd frontend && npm install\"",
+    "start-services": "cd services/credential-service && npm start",
+    "start-frontend": "cd frontend && npm start",
+    "test": "cd services/credential-service && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
